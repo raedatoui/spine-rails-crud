@@ -10,7 +10,7 @@ BackboneRailsCrud::Application.routes.draw do
     resources :administrators, :only => [:index, :new, :create]
     resources :articles
   end
-  match 'admin' => 'admin/home#index'
+  match 'admin' => 'admin/articles#index'
 
   root :to => 'home#index'
 

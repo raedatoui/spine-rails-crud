@@ -1,4 +1,3 @@
-$ = jQuery.sub()
 Article = Admin.Article
 
 $.fn.item = ->
